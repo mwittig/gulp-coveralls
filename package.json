@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "coveralls": "^2.11.2",
-    "gulp-util": "^3.0.4",
+    "plugin-error": "^0.1.2",
     "through2": "^1.1.1"
   },
   "devDependencies": {
@@ -34,7 +34,8 @@
     "mocha": "^2.2.4",
     "mocha-lcov-reporter": "^0.0.2",
     "should": "^6.0.1",
-    "sinon": "^1.14.1"
+    "sinon": "^1.14.1",
+    "vinyl": "^2.1.0"
   },
   "engines": {
     "node": ">=0.10.0",
