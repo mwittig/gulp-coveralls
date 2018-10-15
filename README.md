@@ -3,19 +3,20 @@
 # gulp-coveralls
 
 [Gulp](https://github.com/wearefractal/gulp) plugin to submit code coverage to [Coveralls](http://coveralls.io).
-
+Fork of the unmaintained [gulp-coveralls](https://github.com/markdalgleish/gulp-coveralls) - thank you, [@markdalgleish](https://github.com/markdalgleish)
+ 
 ## Usage
 
-First, install `gulp-coveralls` as a dev dependency:
+First, install `@mwittig/gulp-coveralls` as a dev dependency:
 
 ```bash
-$ npm install --save-dev gulp-coveralls
+$ npm install --save-dev @mwittig/gulp-coveralls
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var coveralls = require('gulp-coveralls');
+var coveralls = require('@mwittig/gulp-coveralls');
 
 gulp.src('test/coverage/**/lcov.info')
   .pipe(coveralls());

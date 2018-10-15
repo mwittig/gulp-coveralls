@@ -1,21 +1,22 @@
 {
-  "name": "gulp-coveralls",
-  "version": "0.1.4",
+  "name": "@mwittig/gulp-coveralls",
+  "version": "0.2.0",
   "description": "Gulp plugin to submit code coverage to Coveralls",
   "keywords": [
     "gulpplugin",
     "coverage"
   ],
-  "homepage": "https://github.com/markdalgleish/gulp-coveralls",
-  "bugs": "https://github.com/markdalgleish/gulp-coveralls/issues",
+  "homepage": "https://github.com/mwittig/gulp-coveralls",
+  "bugs": "https://github.com/mwittig/gulp-coveralls/issues",
   "author": {
     "name": "Mark Dalgleish",
     "url": "https://github.com/markdalgleish"
   },
+  "license": "MIT",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/markdalgleish/gulp-coveralls.git"
+    "url": "git://github.com/mwittig/gulp-coveralls.git"
   },
   "scripts": {
     "test": "jshint index.js && istanbul cover ./node_modules/mocha/bin/_mocha --report lcov -- -R spec",
@@ -28,7 +29,7 @@
   },
   "devDependencies": {
     "event-stream": "^3.3.0",
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.1",
     "istanbul": "^0.3.13",
     "jshint": "^2.7.0",
     "mocha": "^2.2.4",
